@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Table, Button, Row, Col } from "antd";
 import { CSVLink } from "react-csv";
 import { csvData, csvHeaders, tableColumns } from "../../utility/mockData";
