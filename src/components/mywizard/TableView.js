@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Table, Button, Row, Col } from "antd";
 import { CSVLink } from "react-csv";
-import { csvData, csvHeaders, tableColumns } from "../../utility/mockData";
+import { csvData, csvHeaders, tableColumns } from "../utility/mockData";
 
 const data = [];
 for (let i = 0; i < 46; i++) {
