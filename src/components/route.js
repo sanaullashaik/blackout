@@ -1,7 +1,7 @@
 import { Route } from "react-router-dom";
 import { Routes } from "react-router";
-import Homepage from "./Homepage";
-import HostForm from "./HostForm";
+import Homepage from "./Homepage/Homepage";
+import HostForm from "./Homepage/HostForm";
 import TableView from "./mywizard/TableView";
 
 const routes = (
